@@ -1,0 +1,161 @@
+/* 12. Responsive */
+@media (max-width: 980px) {
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    left: 4%;
+    right: 4%;
+    top: 100%;
+    background: var(--white);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    padding: .7rem;
+    align-items: stretch;
+  }
+
+  .menu.open {
+    display: grid;
+  }
+
+  .menu a,
+  .nav-group summary {
+    border-radius: 8px;
+  }
+
+  .nav-group {
+    position: static;
+  }
+
+  .submenu {
+    position: static;
+    box-shadow: none;
+    border: 0;
+    border-left: 3px solid var(--green-soft);
+    border-radius: 0;
+    margin: .25rem 0 .35rem .45rem;
+    padding: .2rem .35rem;
+  }
+
+  .submenu a {
+    white-space: normal;
+  }
+
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .two-col,
+  .footer-grid,
+  .contact-grid,
+  .org-row {
+    grid-template-columns: 1fr;
+  }
+
+  .section-head,
+  .section-header {
+    display: block;
+  }
+
+  .section {
+    padding: 3.2rem 0;
+  }
+
+  .sticky-note {
+    position: static;
+  }
+
+  .table {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .topbar .container {
+    display: block;
+  }
+
+  .topbar {
+    font-size: .78rem;
+  }
+
+  .brand-mark {
+    width: 40px;
+    height: 40px;
+  }
+
+  .brand {
+    font-size: .95rem;
+  }
+
+  .nav-inner {
+    padding: .62rem 0;
+  }
+
+  .quick-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: .65rem;
+  }
+
+  .quick-link {
+    min-height: 118px;
+    padding: .9rem .55rem;
+  }
+
+  .actions {
+    display: grid;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .article,
+  .card-body {
+    padding: 1.1rem;
+  }
+
+  .hero {
+    min-height: 68vh;
+  }
+
+  .hero .container {
+    padding: 4.25rem 0;
+  }
+
+  .hero p,
+  .page-hero p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: clamp(2.05rem, 12vw, 3rem);
+  }
+
+  h2 {
+    font-size: clamp(1.65rem, 9vw, 2.15rem);
+  }
+
+  .thumb {
+    height: 185px;
+  }
+
+  .filters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .filter-btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .quick-grid,
+  .filters {
+    grid-template-columns: 1fr;
+  }
+}

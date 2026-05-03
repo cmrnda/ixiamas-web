@@ -1,0 +1,33 @@
+/* Page-specific utilities and overrides.
+   Keep page-level additions here instead of using inline styles. */
+
+/* Internal page hero backgrounds */
+
+.page-hero--default,
+.page-hero--blue {
+  background-image: linear-gradient(135deg, rgba(20, 62, 88, .95), rgba(11, 107, 60, .78)), url('../img/plaza-ixiamas.jpg');
+}
+
+.page-hero--urban {
+  background-image: linear-gradient(135deg, rgba(4, 51, 29, .94), rgba(11, 107, 60, .82)), url('../img/calles-ixiamas.jpg');
+}
+
+.page-hero--development {
+  background-image: linear-gradient(135deg, rgba(4, 51, 29, .94), rgba(11, 107, 60, .82)), url('../img/ganaderia-visita.jpg');
+}
+
+.page-hero--culture {
+  background-image: linear-gradient(135deg, rgba(4, 51, 29, .94), rgba(11, 107, 60, .78)), url('../img/fiesta-patronal.jpg');
+}
+
+.page-hero--documents {
+  background-image: linear-gradient(135deg, rgba(20, 62, 88, .95), rgba(11, 107, 60, .78)), url('../img/biodiversidad-detalles.jpg');
+}
+
+.page-hero--conservation {
+  background-image: linear-gradient(135deg, rgba(4, 51, 29, .94), rgba(11, 107, 60, .80)), url('../img/guardaparque-madidi.jpg');
+}
+
+.page-hero--geography {
+  background-image: linear-gradient(135deg, rgba(4, 51, 29, .94), rgba(11, 107, 60, .82)), url('../img/bosque-madidi.jpg');
+}

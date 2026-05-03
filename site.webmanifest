@@ -1,0 +1,16 @@
+{
+  "name": "Gobierno Autonomo Municipal de Ixiamas",
+  "short_name": "GAM Ixiamas",
+  "description": "Sitio institucional estatico del Gobierno Autonomo Municipal de Ixiamas.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fbfcfb",
+  "theme_color": "#0f6d3f",
+  "icons": [
+    {
+      "src": "assets/img/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
